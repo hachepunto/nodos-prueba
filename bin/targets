@@ -1,0 +1,4 @@
+#!/bin/bash
+
+find -L data/ -name '*.txt' \
+	| sed -r -e 's#data/#results/#g'
